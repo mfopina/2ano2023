@@ -27,3 +27,26 @@ nav a:hover{
     color: red;
     text-decoration: underline;
 }
+
+.topicos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 55px 0;
+}
+
+.topicos li{
+    display: inline-block;/*alinha*/
+    border: 2px solid black;
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    vertical-align: top;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.topicos li:hover{
+    border-color: aqua;
+    font-size: 25px;
+    border-radius: 50px;
+}
