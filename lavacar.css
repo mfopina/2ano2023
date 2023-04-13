@@ -4,7 +4,7 @@ header{
 }
 .cabecalho{
     position: relative; /*texto no meio*/
-    width: 500px; /*largura da caixa */
+    width: 940px; /*largura da caixa */
     margin: 0 auto; /*calcula margem */
 }
 nav{
@@ -49,4 +49,18 @@ nav a:hover{
     border-color: aqua;
     font-size: 25px;
     border-radius: 50px;
+}
+.topicos li:active{
+    border-color: green;
+    font-size: 40px;
+}
+footer{
+    background: #000000;
+    padding: 0;
+    text-align: center;
+}
+.rodape{
+    color: azure;
+    font-size: 20px;
+    margin: 20px 0 20px;
 }
